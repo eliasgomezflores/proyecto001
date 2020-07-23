@@ -1,0 +1,1 @@
+Las cifras que conforman el monto total de una factura son: Monto Base, Monto IGV y Monto Total. Si solo contamos con el valor de uno de ellos, es posible calcular el monto de los otros dos, mediante unas sencillas fórmulas.

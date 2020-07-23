@@ -1,0 +1,82 @@
+Microsoft Windows [Versión 10.0.18363.900]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+(base) C:\Users\Hp>pip intall Django==3.0.8
+ERROR: unknown command "intall" - maybe you meant "install"
+
+(base) C:\Users\Hp>pip install Django==3.0.8
+Collecting Django==3.0.8
+  Downloading Django-3.0.8-py3-none-any.whl (7.5 MB)
+     |████████████████████████████████| 7.5 MB 6.8 MB/s
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.3.1-py2.py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB 2.7 MB/s
+Requirement already satisfied: pytz in c:\users\hp\anaconda3\lib\site-packages (from Django==3.0.8) (2019.3)
+Collecting asgiref~=3.2
+  Downloading asgiref-3.2.10-py3-none-any.whl (19 kB)
+Installing collected packages: sqlparse, asgiref, Django
+Successfully installed Django-3.0.8 asgiref-3.2.10 sqlparse-0.3.1
+
+(base) C:\Users\Hp>python
+Python 3.7.6 (default, Jan  8 2020, 20:23:39) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import django
+>>> django.VERSION
+(3, 0, 8, 'final', 0)
+>>> exit
+Use exit() or Ctrl-Z plus Return to exit
+>>> exit()
+
+(base) C:\Users\Hp>cd ..
+
+(base) C:\Users>cd ..
+
+(base) C:\>cd proyectodjangoelias
+El sistema no puede encontrar la ruta especificada.
+
+(base) C:\>cd proyectosdjangoelias
+
+(base) C:\proyectosdjangoelias>django-admin startproject Proyecto001
+
+(base) C:\proyectosdjangoelias>cd Proyecto001
+
+(base) C:\proyectosdjangoelias\Proyecto001>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying sessions.0001_initial... OK
+
+(base) C:\proyectosdjangoelias\Proyecto001>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 16, 2020 - 13:39:54
+Django version 3.0.8, using settings 'Proyecto001.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[16/Jul/2020 13:41:07] "GET / HTTP/1.1" 200 16351
+[16/Jul/2020 13:41:07] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[16/Jul/2020 13:41:08] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[16/Jul/2020 13:41:08] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[16/Jul/2020 13:41:08] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[16/Jul/2020 13:41:08] "GET /favicon.ico HTTP/1.1" 404 1977
+
+
