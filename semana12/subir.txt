@@ -1,0 +1,171 @@
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ git add -A
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ git commit -m
+error: switch `m' requires a value
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ ^C
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ git commit -a -m
+error: switch `m' requires a value
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ git add .
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ git commit -m
+error: switch `m' requires a value
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ git commit -m "proyecto001"
+[master (root-commit) 5092d7c] proyecto001
+ 122 files changed, 481181 insertions(+)
+ create mode 100644 __pycache__/financieros.cpython-37.pyc
+ create mode 100644 __pycache__/gestion_archivos.cpython-37.pyc
+ create mode 100644 "semana10/Sin t\303\255tulo1.py"
+ create mode 100644 semana11/instalacion django.txt
+ create mode 100644 semana12/proyecto001/db.sqlite3
+ create mode 100644 semana12/proyecto001/manage.py
+ create mode 100644 semana12/proyecto001/miapp/__init__.py
+ create mode 100644 semana12/proyecto001/miapp/__pycache__/__init__.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/miapp/__pycache__/admin.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/miapp/__pycache__/models.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/miapp/__pycache__/views.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/miapp/admin.py
+ create mode 100644 semana12/proyecto001/miapp/apps.py
+ create mode 100644 semana12/proyecto001/miapp/migrations/__init__.py
+ create mode 100644 semana12/proyecto001/miapp/migrations/__pycache__/__init__.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/miapp/models.py
+ create mode 100644 semana12/proyecto001/miapp/templates/index.html
+ create mode 100644 semana12/proyecto001/miapp/templates/saludo.html
+ create mode 100644 semana12/proyecto001/miapp/tests.py
+ create mode 100644 semana12/proyecto001/miapp/views.py
+ create mode 100644 semana12/proyecto001/proyecto001/__init__.py
+ create mode 100644 semana12/proyecto001/proyecto001/__pycache__/__init__.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/proyecto001/__pycache__/settings.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/proyecto001/__pycache__/urls.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/proyecto001/__pycache__/wsgi.cpython-37.pyc
+ create mode 100644 semana12/proyecto001/proyecto001/asgi.py
+ create mode 100644 semana12/proyecto001/proyecto001/settings.py
+ create mode 100644 semana12/proyecto001/proyecto001/urls.py
+ create mode 100644 semana12/proyecto001/proyecto001/wsgi.py
+ create mode 100644 semana12/semana12.txt
+ create mode 100644 semana4/Gomez Flores Elias.zip
+ create mode 100644 semana4/Leeme.txt
+ create mode 100644 semana4/agregar_datos_archivo.py
+ create mode 100644 semana4/aplicacion.py
+ create mode 100644 semana4/aplicacion.zip
+ create mode 100644 semana4/archivo
+ create mode 100644 semana4/archivo_de_prueba.txt
+ create mode 100644 semana4/das
+ create mode 100644 semana4/eliminar_archivo.py
+ create mode 100644 semana4/facturacion1.py
+ create mode 100644 semana4/facturacion2.py
+ create mode 100644 semana4/financieros.py
+ create mode 100644 semana4/gestion_archivos.py
+ create mode 100644 semana4/grabar_archivo.py
+ create mode 100644 semana4/leer_archivo.py
+ create mode 100644 semana4/noticia.txt
+ create mode 100644 "semana4/noticia.txt\303\247.txt"
+ create mode 100644 semana4/titulo.py
+ create mode 100644 semana5-practica/__pycache__/gestion_archivos.cpython-37.pyc
+ create mode 100644 semana5-practica/__pycache__/gestion_de_archivos1.cpython-37.pyc
+ create mode 100644 semana5-practica/__pycache__/gestionar_archivos.cpython-37.pyc
+ create mode 100644 semana5-practica/clave.txt
+ create mode 100644 semana5-practica/datos.py
+ create mode 100644 semana5-practica/dni.txt
+ create mode 100644 semana5-practica/fecha_nacimiento.txt
+ create mode 100644 semana5-practica/gestion_de_archivos1.py
+ create mode 100644 semana5-practica/gestionar_archivos.py
+ create mode 100644 semana5-practica/grupo/menu_grupo.py
+ create mode 100644 semana5-practica/menu.py
+ create mode 100644 semana5-practica/menu_grupo.py
+ create mode 100644 semana5-practica/menu_grupos.py
+ create mode 100644 semana5-practica/nombres.txt
+ create mode 100644 semana5-practica/nose.txt
+ create mode 100644 semana5-practica/splitconarchivo.py
+ create mode 100644 semana5-practica/usuario.txt
+ create mode 100644 semana5/Global_Mobility_Report.csv
+ create mode 100644 semana5/IniciarSesion.py
+ create mode 100644 semana5/clave.txt
+ create mode 100644 semana5/dni.txt
+ create mode 100644 semana5/fecha_nacimiento.txt
+ create mode 100644 semana5/fechayhora.py
+ create mode 100644 semana5/leerarchivoCSV.py
+ create mode 100644 semana5/lp3.rar
+ create mode 100644 semana5/manejodeerrores.py
+ create mode 100644 semana5/nombres.txt
+ create mode 100644 semana5/noticia.txt
+ create mode 100644 semana5/split.py
+ create mode 100644 semana5/splitconarchivo.py
+ create mode 100644 semana5/usuario.txt
+ create mode 100644 semana6-practica/APLICATION.py
+ create mode 100644 semana6-practica/biblioteca/agregar.py
+ create mode 100644 semana6-practica/biblioteca/eliminar.py
+ create mode 100644 semana6-practica/biblioteca/grupo.py
+ create mode 100644 semana6-practica/biblioteca/practica06.db
+ create mode 100644 semana6-practica/biblioteca/producto.bd
+ create mode 100644 semana6-practica/biblioteca/producto.db
+ create mode 100644 semana6-practica/jean.db
+ create mode 100644 semana6-practica/practica2-lp3.rar
+ create mode 100644 semana6-practica/prueba.db
+ create mode 100644 semana6/biblioteca/agregar.py
+ create mode 100644 semana6/biblioteca/agregarvariosregistros.py
+ create mode 100644 semana6/biblioteca/bdbiblioteca.db
+ create mode 100644 semana6/biblioteca/crearbasededatos.py
+ create mode 100644 semana6/biblioteca/creartablas.py
+ create mode 100644 semana6/biblioteca/eliminar.py
+ create mode 100644 semana6/biblioteca/modificar.py
+ create mode 100644 semana6/biblioteca/practica06.db
+ create mode 100644 semana7-practica/BDVentas.db
+ create mode 100644 semana7-practica/BDVentas.rar
+ create mode 100644 semana7-practica/PracticaGrupal.zip
+ create mode 100644 semana7-practica/PracticaGrupal/INTEGRANTES (1).txt
+ create mode 100644 semana7-practica/PracticaGrupal/aplicacion.py
+ create mode 100644 semana7-practica/PracticaGrupal/bdempleados.db
+ create mode 100644 semana7-practica/dcascs/2016200216461007IS06S11012966BDVENTAS.rar
+ create mode 100644 semana7-practica/dcascs/BDVENTAS.py
+ create mode 100644 semana7-practica/dcascs/BDVentas (1).db
+ create mode 100644 semana7-practica/dcascs/integrantes.txt
+ create mode 100644 semana7/BDVENTAS.py
+ create mode 100644 semana7/BDVentas.db
+ create mode 100644 semana7/integrantes.txt
+ create mode 100644 semana7/menu.py
+ create mode 100644 semana7/practicasemana7.zip
+ create mode 100644 semana8/1.cpp
+ create mode 100644 semana8/1.exe
+ create mode 100644 semana8/Iniciar.py
+ create mode 100644 semana8/claves.txt
+ create mode 100644 semana8/codigo.txt
+ create mode 100644 semana8/distrubuirbd.py
+ create mode 100644 semana8/nombre.txt
+ create mode 100644 semana8/precio.txt
+ create mode 100644 semana8/usuarios.txt
+ create mode 100644 semana8/ventas.db
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ git remote add origin https://github.com/eliasgomezflores/proyecto001.git
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ git push -u origin master
+Enumerating objects: 143, done.
+Counting objects: 100% (143/143), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (123/123), done.
+Writing objects: 100% (143/143), 3.92 MiB | 374.00 KiB/s, done.
+Total 143 (delta 19), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (19/19), done.
+To https://github.com/eliasgomezflores/proyecto001.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$ ls
+db.sqlite3  manage.py*  miapp/  proyecto001/
+
+Hp@DESKTOP-T6PEFHS MINGW64 ~/Desktop/lp3/semana12/proyecto001 (master)
+$
